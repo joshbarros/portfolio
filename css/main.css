@@ -166,18 +166,23 @@ main {
     font-size: 1.5rem;
     font-weight: bold; }
   .about-info .job-1 {
-    grid-area: job1;
-    font-style: italic; }
+    grid-area: job1; }
   .about-info .job-2 {
-    grid-area: job2;
-    font-style: italic; }
+    grid-area: job2; }
   .about-info .job-3 {
-    grid-area: job3;
-    font-style: italic; }
+    grid-area: job3; }
+  .about-info .job h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: normal; }
+  .about-info .job p {
+    font-style: italic;
+    text-align: center; }
   .about-info .job {
     background: #71e0a3;
     padding: 0.5rem;
-    border-bottom: #05386B 5px solid; }
+    border: #05386B 5px solid; }
 
 .projects {
   display: grid;
