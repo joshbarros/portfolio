@@ -90,6 +90,7 @@ main{
 .bio {
 	grid-area: bio;
 	font-size: 1.5rem;
+	font-weight: bold;
 }
 
 .job-1 {
@@ -104,10 +105,22 @@ main{
 	grid-area: job3;
 }
 
+.job h3 {
+	text-align: center;
+	font-size: 1.5rem;
+	font-weight: bold;
+	font-style: normal;
+}
+
+.job p {
+	font-style: italic;
+	text-align: center;
+}
+
 .job{
 	background: lighten($primary-color, 5);
 	padding: 0.5rem;
-	border-bottom: $secondary-color 5px solid;
+	border: $secondary-color 5px solid;
 	}
 }
 
@@ -137,7 +150,7 @@ main{
 	margin-top: 1rem;
 
 	div{
-	font-size: 2rem;
+	font-size: 1.6rem;
 	border: 3px #fff solid;
 	padding: 1.5rem 2.5rem;
 	margin-bottom: 3rem;
