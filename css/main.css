@@ -270,6 +270,8 @@ main {
     grid-template-columns: 1fr; } }
 
 @media screen and (max-width: 500px) {
+  .boxes {
+    max-width: 75vw; }
   main {
     padding: 2rem; }
     main .lg-heading {
